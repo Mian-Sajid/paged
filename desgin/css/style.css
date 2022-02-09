@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    background-color: #18a0fb;
+    border-bottom: 2px solid greenyellow;
+}
+.mian p{
+    text-align: right;
+}
+.mia h1{
+    padding: 27px;
+    margin-left: -22px;
+    color: white;
+}
+.text{
+    padding: 27px;
+    margin-top: 8px;
+    font-size: 18px;
+    color: white;
+    margin-right: -9px;
+    
+    
+}
+.text1{
+    margin-top: -46px;
+    margin-right: 17px;
+    font-size: 18px;
+    color: white;
+    
+}
+.hed {
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .hed1 {
+    margin-top: 34px;
+    margin-bottom: 25px;
+    font-size: 43px;
+    font-weight: 700;
+  }
+  .para1 {
+    font-size: 20px;
+  }
+  .hed2{
+      margin-top: 55px;
+      margin-bottom: 25px;
+      font-size: 35px;
+      font-weight: 600;
+  }
+  #contact_ul{
+    list-style: none;
+    -webkit-padding-start: 0px;
+    }
+     
+    
+    .fa-check-circle{
+        font-size: 20px;
+    }
+    .fa-check-circle::after{
+        content: '';
+        border-left: 4px solid black;      
+        position: relative;
+        top: 20px;
+        left: -12px;
+        height: 20px;
+        font-size: 16px;
+        
+
+    }
+    #li_phone {
+        margin-bottom: 19px;
+        font-size: 20px;
+        font-weight: 500;
+
+      }
+    #li_email{
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .thre {
+        border: 2px solid #000;
+        padding-left: 5px;
+        padding-right: 4px;
+        border-radius: 50%;
+        position: relative;
+        top: 0px;
+        left: -0.5px;
+        font-size: 14px;
+      }
+      .thre::after{
+        content: '';
+        border-left: 2px solid #aeaaaa;
+        position: relative;
+        top: 22px;
+        left: -4.5px;
+        height: 20px;
+        font-size: 13px;
+      }
+      .three {
+        margin-bottom: 19px;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .four{
+        border: 2px solid #aeaaaa;
+        padding-left: 5px;
+        padding-right: 4.5px;
+        border-radius: 50%;
+        position: relative;
+        top: 0px;
+        left: -0.5px;
+        font-size: 14px;
+        color: #aeaaaa;
+      }
+      .four::after{
+        content: '';
+        border-left: 2px solid #aeaaaa;
+        position: relative;
+        top: 22px;
+        left: -4px;
+        height: 20px;
+        font-size: 13px;
+      }
+      .Four{
+          margin-bottom: 20px;
+          font-size: 20px;
+          font-weight: 500;
+          
+      }
+      .five{
+        border: 2px solid #aeaaaa;
+        padding-left: 5px;
+        padding-right: 6px;
+        border-radius: 50%;
+        position: relative;
+        top: -2px;
+        left: -0.5px;
+        font-size: 15px;
+        color: #aeaaaa;
+      }
+      .Five{
+        font-size: 20px;
+        font-weight: 500;
+      }
+      
+      .car {
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 55px;
+        margin-bottom: 25px;
+      }
+      .para2 {
+        word-spacing: 7px;
+        line-height: 2;
+      }
+    
+      .about{
+          text-decoration: underline solid #18a0fb 3px;
+          text-underline-position: under;
+          text-underline-offset: 6px;
+        
+      }
+      .qual{
+        text-decoration: underline solid #2bd025 3px;
+        text-underline-position: under;
+        text-underline-offset: 6px;
+      }
+      .search{
+        text-decoration: underline solid #ec49da 3px;
+        text-underline-position: under;
+        text-underline-offset: 6px;
+      }
+
+      .interv{
+        text-decoration: underline solid #ffc743 3px;
+        text-underline-position: under;
+        text-underline-offset: 6px;
+      }
+
+      .start{
+        text-decoration: underline solid #18a0fb 3px;
+        text-underline-position: under;
+        text-underline-offset: 6px;
+      }
+      
+
+
+
+
+
+
+
+
+
+@media(max-width:440px){
+    #li_phone{
+        font-size: 16px;
+    }
+    #li_email{
+        font-size: 16px;
+    }
+    .three{
+        font-size: 16px;
+    }
+    .Four{
+        font-size: 16px;
+    }
+    .Five{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:576px){
+    .mian p{
+        text-align: center;
+       
+    }
+    .mia h1{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .text{
+        margin-right: 0px;
+        text-align: center;
+        margin-top: -50px;
+    }
+    .text1{
+        margin-right: 0px;
+        text-align: center;
+        
+    }
+
+}
